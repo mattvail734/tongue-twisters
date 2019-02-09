@@ -4,6 +4,10 @@ repo for natural language processing tools, references, and microprojects
 ## Index
 * [Projects](#projects)
 * [Tools](#tools)
+* [Notebooks](#Notebooks)
+* [Credits](#Credits)
+* [Contact Info](#contact-info)
+* [License](#License)
 
 ## Projects
 
@@ -32,3 +36,17 @@ Other Natural Language Processing Tools
 | 4 | [SpaCy](https://spacy.io/)| Written in Cython and very fast. |
 | 5 | [PolyGlot](https://polyglot.readthedocs.io/en/latest/index.html)| Also very fast. |
 | 6 | [Pattern](https://www.clips.uantwerpen.be/pages/pattern-en)| Most other NL tools use pattern for their part of speech tagging, but you can implement it directly. |
+
+## Notebooks
+
+## Credits
+
+## Contact Info
+Please reach out with any comments, questions, suggestions, ideas, or anything else.
+
+Email: mattrvail@gmail.com
+
+LinkedIn: [Matt Vail](https://www.linkedin.com/in/mattvail/)
+
+## License
+This repository contains content created by third parties, which is distributed under the license provided by those parties. Content created by Matt Vail is provided under the GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007.
