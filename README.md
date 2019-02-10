@@ -58,8 +58,8 @@ Other Natural Language Processing Tools
 
 | Notebook | Description | Source |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [Movie Review with NLTK](https://nbviewer.jupyter.org/github/polymathnexus5/synthetic-smarts/blob/master/notebooks/Natural%20Language%20Processing%20of%20Movie%20Reviews%20using%20nltk%20.ipynb)| Intro to NLTK with an example exercise analyzing a movie review database for positive and negative reviews. | [UCSD Python for Data Science](https://courses.edx.org/courses/course-v1:UCSanDiegoX+DSE200x+1T2018/course/) |
-| [Twitter Analysis](https://nbviewer.jupyter.org/github/polymathnexus5/synthetic-smarts/blob/master/notebooks/Twitter%20Analysis.ipynb)| Twitter feed analysis using basic NLTK. | [UCSD Python for Data Science](https://courses.edx.org/courses/course-v1:UCSanDiegoX+DSE200x+1T2018/course/) |
+| [Movie Review with NLTK](https://github.com/polymathnexus5/tongue-twisters/blob/master/Notebooks/Movie%20Review%20with%20NLTK.ipynb)| Intro to NLTK with an example exercise analyzing a movie review database for positive and negative reviews. | [UCSD Python for Data Science](https://courses.edx.org/courses/course-v1:UCSanDiegoX+DSE200x+1T2018/course/) |
+| [Twitter Analysis](https://github.com/polymathnexus5/tongue-twisters/blob/master/Notebooks/Twitter%20Analysis.ipynb)| Twitter feed analysis using basic NLTK. | [UCSD Python for Data Science](https://courses.edx.org/courses/course-v1:UCSanDiegoX+DSE200x+1T2018/course/) |
 
 ## Credits
 
