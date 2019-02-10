@@ -49,9 +49,9 @@ Other Natural Language Processing Tools
 ## References
 
 ### Books
-[Natural Language Processing in Python](https://github.com/polymathnexus5/tongue-twisters/blob/master/References/Natural%20Language%20Processing%20with%20Python.pdf)
 
-### Cool Articles
+
+### Articles
 [A Practitioner's Guide to Natural Language Processing](https://towardsdatascience.com/a-practitioners-guide-to-natural-language-processing-part-i-processing-understanding-text-9f4abfd13e72)
 
 ## Notebooks
