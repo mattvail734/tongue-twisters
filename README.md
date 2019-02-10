@@ -4,6 +4,7 @@ repo for natural language processing tools, references, and microprojects
 ## Index
 * [Projects](#projects)
 * [Tools](#tools)
+* [References](#references)
 * [Notebooks](#Notebooks)
 * [Credits](#Credits)
 * [Contact Info](#contact-info)
@@ -38,6 +39,14 @@ Other Natural Language Processing Tools
 | 6 | [Pattern](https://www.clips.uantwerpen.be/pages/pattern-en)| Most other NL tools use pattern for their part of speech tagging, but you can implement it directly. |
 
 [Top](#tongue-twisters)
+
+## References
+
+### Books
+[Natural Language Processing in Python](https://github.com/polymathnexus5/tongue-twisters/blob/master/References/Natural%20Language%20Processing%20with%20Python.pdf)
+
+### Cool Articles
+[A Practitioner's Guide to Natural Language Processing](https://towardsdatascience.com/a-practitioners-guide-to-natural-language-processing-part-i-processing-understanding-text-9f4abfd13e72)
 
 ## Notebooks
 
