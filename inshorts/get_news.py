@@ -2,7 +2,10 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import normalize_corpus
+import os
+import sys
 
+dirname = os.path.dirname(__file__)
 
 seed_urls = ['https://inshorts.com/en/read/technology',
              'https://inshorts.com/en/read/sports',
@@ -39,12 +42,10 @@ news_df = build_dataset(seed_urls)
 news_df['full_text'] = news_df['news_headline'].map(str) + '. ' + news_df['news_article']
 
 # pre-process text and store the same
-news_df['clean_text'] = normalize_corpus(news_df['full_text'])
-norm_corpus = list(news_df['clean_text'])
+news_df['clean_text'] = normalize_corpus.normalize(news_df['full_text'], text_lemmatization=False, text_lower_case=False, special_char_removal=False)
 
 # show a sample news article
 news_df.iloc[1][['full_text', 'clean_text']].to_dict()
 
-news_df.to_csv('news.cv', index=False, encoding='utf-8')
-
-print news_df.head(10)
+news_output = os.path.join(dirname, 'news.csv')
+news_df.to_csv(news_output, index=False, encoding='utf-8')

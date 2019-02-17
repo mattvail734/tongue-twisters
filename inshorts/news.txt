@@ -1,0 +1,76 @@
+                                        news_headline                                       news_article news_category
+0   YouTuber writes names to thank subscribers, ga...  A 73-year-old Portuguese YouTuber has gained 3...    technology
+1   Time to fly away to Mars: Mahindra on Gmail au...  Mahindra Group Chairman Anand Mahindra on Sund...    technology
+2   Tinder-like app for dog adoption made in Lithu...  Lithuania-based app makers have created a Tind...    technology
+3   Video streaming services don't need govt licen...  The Centre has told Delhi High Court that onli...    technology
+4   Facebook's head of communications quits after ...  Facebook executive Caryn Marooney has announce...    technology
+5   We delete 2 million accounts per month to curb...  Facebook-owned messaging platform WhatsApp has...    technology
+6   Tinder parent Match Group fully acquires datin...  Tinder's parent company Match Group has fully ...    technology
+7   Microsoft discourages using its Internet Explo...  Microsoft has discouraged using its web browse...    technology
+8   Apple to pay 14-year-old who found FaceTime pr...  Apple has said it will compensate 14-year-old ...    technology
+9   Facebook to add disclaimers on political ads b...  Facebook has said that political advertisement...    technology
+10  Google admits bug that can hack Android device...  Google has acknowledged a bug that could allow...    technology
+11  Apps like Hotels.com, Expedia record iPhone sc...  A few iPhone apps including 'Abercrombie & Fit...    technology
+12  Twitter CEO declines to meet parliamentary pan...  Twitter CEO Jack Dorsey and other senior offic...    technology
+13  Apple to remove Safari's 'Do Not Track' over p...  Apple has removed support for "expired" 'Do No...    technology
+14  Sprint sues rival AT&T over 5G E label, 'false...  US-based telecom operator Sprint has sued riva...    technology
+15  Networked freezers in stores, hospitals at hac...  Researchers have reportedly found vulnerabilit...    technology
+16  Teen researcher finds macOS bug, refuses detai...  German teen researcher Linus Henze who found a...    technology
+17  Facebook to show who uploaded user contact inf...  Facebook in a post to the 'Facebook Advertiser...    technology
+18  Amazon including drivers' tips in their base p...  E-commerce giant Amazon is using customer tips...    technology
+19  Apple, Google host app that tracks Saudi women...  Apple and Google have been criticised for host...    technology
+20  Hackers using Google Translate to steal inform...  Hackers are exploiting a Google Translate loop...    technology
+21  Apple sued over 'time-taking' authentication p...  A class-action lawsuit has reportedly been fil...    technology
+22  Apple asks apps to disclose or remove screen r...  Apple has asked app developers to either prope...    technology
+23  19-year-old builds own prosthetic arm using Le...  David Aguilar, a 19-year-old bioengineering st...    technology
+24  Facebook buys IITian's AI startup that helps s...  Social media giant Facebook has acquihired vis...    technology
+25  India lose a T20I series for the first time af...  New Zealand defeated India by four runs in the...        sports
+26  It took India nearly 20 years to win their fir...  India defeated England by an innings and eight...        sports
+27  Dhoni saves Indian flag from touching ground a...  An Indian fan carrying the tricolour invaded t...        sports
+28  Proud of you big bro: Hardik after Krunal name...  After Team India all-rounder Krunal Pandya was...        sports
+29  MS Dhoni becomes first Indian cricketer to pla...  Former India captain MS Dhoni has become the f...        sports
+30  Looks like free wines working fine: Styris on ...  Commentator Scott Styris took to Twitter to sh...        sports
+31  Dhoni takes just 0.099 sec to stump NZ opener ...  Team India wicketkeeper Mahendra Singh Dhoni r...        sports
+32  Rajasthan Royals to don pink jersey in Indian ...  Rajasthan Royals, who wore a blue jersey in th...        sports
+33  My new hero: Arnold on athlete with cerebral p...  Hollywood actor Arnold Schwarzenegger took to ...        sports
+34  BBL team chases 157-run target in 60 balls wit...  Brisbane Heat chased down a 157-run target aga...        sports
+35  NZ Women beat India Women by 2 runs, complete ...  New Zealand Women defeated India Women in the ...        sports
+36  Stokes recalled from dressing room after being...  England's Ben Stokes was recalled to bat from ...        sports
+37  Rival fans make aeroplane gestures to mock Sal...  Two Southampton fans were arrested for mocking...        sports
+38  Iqbal slams 141*(61) as Comilla Victorians win...  Opener Tamim Iqbal smashed an unbeaten 141 off...        sports
+39  Man Utd register 10th win in 11 matches, move ...  Manchester United defeated Fulham 3-0 on Satur...        sports
+40  Made our mind on India's core team for World C...  Team India chief selector MSK Prasad has said ...        sports
+41  Indian players were awarded ₹250 each for 1st ...  Indian cricketers were awarded ₹250 each when ...        sports
+42  India's Prajnesh breaks into ATP top-100 for t...  Indian tennis player Prajnesh Gunneswaran is s...        sports
+43  India is blessed to have a captain like Kohli:...  Indian selector MSK Prasad praised Indian capt...        sports
+44  England Lions draw 1st unofficial Test against...  England Lions and India A played out a draw in...        sports
+45  Tokyo 2020 gets $3mn of gold, silver for medal...  Tokyo's Olympics planning committee has reveal...        sports
+46  Decline of Sri Lankan cricket saddens me: Mura...  Speaking about Sri Lankan cricket, former spin...        sports
+47  Arjun included in Mumbai U-23 squad for BCCI’s...  Arjun Tendulkar was included in the Mumbai U-2...        sports
+48  Real beat Atletico Madrid 3-1 to climb back to...  Real Madrid beat Atletico Madrid 3-1 in the Ma...        sports
+49       Sourav Ganguly buys BMW bike worth ₹3.5 lakh  Former Indian cricket team captain Sourav Gang...        sports
+50  Arunachal our integral part: India after China...  After China opposed PM Narendra Modi's visit t...         world
+51  Abu Dhabi includes Hindi as third official cou...  Abu Dhabi has included Hindi as the third offi...         world
+52  Pak PM's minorities remark egregious insult to...  The Ministry of External Affairs (MEA) on Satu...         world
+53  Plane touches runway, takes off in seconds ami...  A British Airways flight at Heathrow Airport n...         world
+54  Man who killed 6 at mosque jailed for life wit...  A Canadian man who gunned down six members of ...         world
+55  Area of Germany's new spy HQ equivalent to 36 ...  German Chancellor Angela Merkel on Friday inau...         world
+56  UK Prince Philip gives up driving licence afte...  UK Queen Elizabeth II's 97-year-old husband Pr...         world
+57  Pakistani journalist critical of government se...  Rizwan Razi, a Pakistani journalist critical o...         world
+58  Pak govt not to remove Nawaz Sharif's name fro...  The Pakistan government has rejected former PM...         world
+59  Boy found alive 2 days after Turkey building c...  A teenage boy was pulled alive from the rubble...         world
+60  Canadian man given 8 life sentences for murder...  A 67-year-old Canadian man who killed eight me...         world
+61  N Korea will become 'economic rocket' under Ki...  Ahead of his second summit with North Korean l...         world
+62  Newlyweds get divorced in 3 minutes after man ...  A Kuwaiti couple got divorced just three minut...         world
+63  Pregnant woman carries dying baby to term, don...  Krysta Davis from US carried her baby to term ...         world
+64  Party that chose Thai Princess for PM faces ba...  The political party that nominated Thai Prince...         world
+65  IKEA forgets to show New Zealand in its world ...  Swedish furniture chain IKEA has apologised af...         world
+66  Trump, Kim to meet for 2nd summit in Vietnam c...  US President Donald Trump's second summit with...         world
+67  Thai King opposes sister's PM candidacy; party...  The Thai Raksa Chart party has withdrawn its s...         world
+68  Blaming Crown Prince for journo murder 'a red ...  Saudi Crown Prince Mohammed bin Salman didn't ...         world
+69  Tokyo 2020 gets $3mn of gold, silver for medal...  Tokyo's Olympics planning committee has reveal...         world
+70  Apple, Google host app that tracks Saudi women...  Apple and Google have been criticised for host...         world
+71         UK bars export of 17th century Indian tray  The UK has barred the export of a 17th-century...         world
+72  US considers withdrawal of zero tariffs for In...  The US may reportedly withdraw the Generalised...         world
+73  US willing to send its sons, daughters to die ...  Amid the ongoing tension between the two count...         world
+74  15 killed in arson, knife attack on Chinese Ne...  As many as seven people were killed in China o...         world

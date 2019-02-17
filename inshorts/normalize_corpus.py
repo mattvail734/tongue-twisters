@@ -7,7 +7,7 @@ import re
 from contractions import CONTRACTION_MAP
 
 
-nlp = spacy.load('en_core_web_md', parse=True, tag=True, entity=True)
+# nlp = spacy.load('en_core_web_md', parse=True, tag=True, entity=True)
 tokenizer = ToktokTokenizer()
 stopword_list = nltk.corpus.stopwords.words('english')
 stopword_list.remove('no')
@@ -73,7 +73,7 @@ def remove_stopwords(text, is_lower_case=False):
     return filtered_text
 
 
-def normalize_corpus(
+def normalize(
         corpus, html_stripping=True, contraction_expansion=True,
         accented_char_removal=True, text_lower_case=True, text_lemmatization=True,
         special_char_removal=True, stopword_removal=True, remove_digits=True):
@@ -86,7 +86,7 @@ def normalize_corpus(
                 doc = strip_html_tags(doc)
             # expand contractions
             if contraction_expansion:
-                doc = expand_contractions(corpus)
+                doc = expand_contractions(doc)
             # remove accented characters
             if accented_char_removal:
                 doc = remove_accented_chars(doc)
@@ -96,8 +96,8 @@ def normalize_corpus(
             # remove extra newlines
             doc = re.sub(r'[\r|\n|\r\n]+', ' ', doc)
             # lemmatize the text
-            if text_lemmatization:
-                doc = lemmatize_text(doc)
+            # if text_lemmatization:
+            #     doc = lemmatize_text(doc)
             # remove special characters and/or digits
             if special_char_removal:
                 # insert spaces between special characters
@@ -112,4 +112,4 @@ def normalize_corpus(
 
             normalized_corpus.append(doc)
 
-            return normalized_corpus
+        return normalized_corpus
