@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import normalize_corpus
+import tag_corpus
 import os
-import sys
 
 dirname = os.path.dirname(__file__)
 
@@ -38,14 +38,15 @@ def build_dataset(seed_urls):
 
 news_df = build_dataset(seed_urls)
 
-# combining headline and article text
+# combine headline and article text
 news_df['full_text'] = news_df['news_headline'].map(str) + '. ' + news_df['news_article']
 
-# pre-process text and store the same
+# clean text
 news_df['clean_text'] = normalize_corpus.normalize(news_df['full_text'], text_lemmatization=False, text_lower_case=False, special_char_removal=False)
 
-# show a sample news article
-news_df.iloc[1][['full_text', 'clean_text']].to_dict()
+# tag parts of speech (POS) in the text
+news_df = tag_corpus.tag(news_df)
 
+# store in csv
 news_output = os.path.join(dirname, 'news.csv')
 news_df.to_csv(news_output, index=False, encoding='utf-8')
