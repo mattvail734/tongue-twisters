@@ -1,11 +1,9 @@
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
-import normalize_corpus
-import tag_corpus
 import os
-
-dirname = os.path.dirname(__file__)
+import requests
+import pandas as pd
+from bs4 import BeautifulSoup
+import normalize_text
+import tag_text
 
 seed_urls = ['https://inshorts.com/en/read/technology',
              'https://inshorts.com/en/read/sports',
@@ -36,17 +34,26 @@ def build_dataset(seed_urls):
     return df
 
 
-news_df = build_dataset(seed_urls)
+def build_dataframe():
+    news_df = build_dataset(seed_urls)
+    # combine headline and article text
+    news_df['full_text'] = news_df['news_headline'].map(str) + '. ' + news_df['news_article']
+    # preprocess text
+    news_df['normalized_text'] = normalize_text.normalize(news_df['full_text'])
+    # tag text
+    news_df['tagged_text'] = tag_text.tag_text(news_df['normalized_text'], model='nltk')
+    return news_df
 
-# combine headline and article text
-news_df['full_text'] = news_df['news_headline'].map(str) + '. ' + news_df['news_article']
-
-# clean text
-news_df['clean_text'] = normalize_corpus.normalize(news_df['full_text'], text_lemmatization=False, text_lower_case=False, special_char_removal=False)
-
-# tag parts of speech (POS) in the text
-news_df = tag_corpus.tag(news_df)
 
 # store in csv
-news_output = os.path.join(dirname, 'news.csv')
-news_df.to_csv(news_output, index=False, encoding='utf-8')
+def store_dataframe(df):
+    dirname = os.path.dirname(__file__)
+    news_output = os.path.join(dirname, 'news.csv')
+    df.to_csv(news_output, index=False, encoding='utf-8')
+
+
+# import data from a local csv
+def import_corpus(file_name):
+    dirname = os.path.dirname(__file__)
+    file_path = os.path.join(dirname, file_name)
+    return pd.read_csv(file_path)
