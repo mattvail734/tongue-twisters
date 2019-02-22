@@ -5,6 +5,7 @@ from nltk.chunk import ChunkParserI
 # first download the nltk conll2000 corpora
 # nltk.download('conll2000')
 
+
 # chunk_sents is a single set of words NOT an iterable
 def conll_tag_chunks(chunk_sents):
     tagged_sents = [tree2conlltags(tree) for tree in chunk_sents]
