@@ -46,12 +46,12 @@ Other Natural Language Processing Tools
 
 | # | Lexicon | Description |
 |---|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1 | [Bing Liu's Lexicon](https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html)| University of Illinois Chicago Professor Lexicon |
-| 2 | [SentiWordNet](https://sentiwordnet.isti.cnr.it/)|  |
-| 3 | []()|  |
-| 4 | []()|  |
-| 5 | []()|  |
-| 6 | []()|  |
+| 1 | [Bing Liu's Lexicon](https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html)| University of Illinois Chicago Lexicon |
+| 2 | [SentiWordNet](https://sentiwordnet.isti.cnr.it/)| University of Pisa Lexicon |
+| 3 | [MPQA](http://mpqa.cs.pitt.edu/lexicons/subj_lexicon/)| University of Pittsburgh Lexicon and NLP resources |
+| 4 | [Vader](https://github.com/cjhutto/vaderSentiment)| Open source Lexicon project |
+| 5 | [TextBlob](https://github.com/sloria/TextBlob/blob/eb08c120d364e908646731d60b4e4c6c1712ff63/textblob/en/en-sentiment.xml)| Open source Lexicon project |
+| 6 | [AFINN](https://github.com/fnielsen/afinn)| Open source Lexicon project |
 
 [Top](#tongue-twisters)
 
