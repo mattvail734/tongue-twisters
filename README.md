@@ -18,7 +18,7 @@ Example histogram from movie data:
 </p>
 
 ### [movie-reviews-micro-project](https://github.com/polymathnexus5/tongue-twisters/blob/master/movies/)
-Python and NLTK to analyze built in NLTK movie reviews dataset.
+Analysis of MovieLens ratings and NLTK built in movie reviews.
 
 ## Tools
 
