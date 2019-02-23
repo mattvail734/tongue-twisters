@@ -1,6 +1,6 @@
 # Movie Reviews
 
-Brief exploration of the Movielens database and supervised semantic analysis of the built in NLTK movie reviews. 
+Brief exploration of the MovieLens database and supervised semantic analysis of the built in NLTK movie reviews. 
 
 movie_reviews is a simple first use of the NLTK library in Python to classify moview reviews as positive or negative [(sentiment analysis)](https://en.wikipedia.org/wiki/Sentiment_analysis).
 
