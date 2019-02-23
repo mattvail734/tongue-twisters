@@ -18,7 +18,7 @@ Example histogram from movie data:
   <img src="https://github.com/polymathnexus5/synthetic-smarts/blob/master/movies/ratings_histogram.png">
 </p>
 
-### [movie-reviews-micro-project](https://github.com/polymathnexus5/synthetic-smarts/tree/master/movies)
+### [movie-reviews-micro-project](https://github.com/polymathnexus5/tongue-twisters/blob/master/movies/ratings_histogram.png)
 Python and NLTK to analyze built in NLTK movie reviews dataset.
 
 ## Tools
