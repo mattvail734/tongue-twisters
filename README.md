@@ -15,10 +15,10 @@ repo for natural language processing tools, references, and microprojects
 Example histogram from movie data:
 <br/>
 <p align="center">
-  <img src="https://github.com/polymathnexus5/synthetic-smarts/blob/master/movies/ratings_histogram.png">
+  <img src="https://github.com/polymathnexus5/tongue-twisters/blob/master/movies/ratings_histogram.png">
 </p>
 
-### [movie-reviews-micro-project](https://github.com/polymathnexus5/tongue-twisters/blob/master/movies/ratings_histogram.png)
+### [movie-reviews-micro-project](https://github.com/polymathnexus5/tongue-twisters/blob/master/movies/)
 Python and NLTK to analyze built in NLTK movie reviews dataset.
 
 ## Tools
