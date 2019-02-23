@@ -13,8 +13,7 @@ repo for natural language processing tools, references, and microprojects
 ## Projects
 
 Example histogram from movie data:
-<p>
-  align="left"
+<p align="left">
   <img src="https://github.com/polymathnexus5/tongue-twisters/blob/master/movies/ratings_histogram.png" alt="Histogram" height="500" width="500" style="float:right">
 </p>
 
