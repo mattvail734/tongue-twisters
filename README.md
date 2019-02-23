@@ -23,6 +23,8 @@ Python and NLTK to analyze built in NLTK movie reviews dataset.
 
 ## Tools
 
+### NLTK
+
 [NLTK Documentation](https://www.nltk.org/)
 
 [NLTK Reference Book](https://www.nltk.org/book/)
@@ -33,6 +35,14 @@ Python and NLTK to analyze built in NLTK movie reviews dataset.
 
 [NLTK Wiki](https://github.com/nltk/nltk/wiki)
 
+### SpaCy
+
+SpaCy is an open-source library written in Cython and focused on speed and production environments.
+
+[SpaCy Documentation](https://spacy.io/)
+
+[SpaCy Introduction](https://spacy.io/usage/spacy-101)
+
 Other Natural Language Processing Tools
 
 | # | Library | Description |
@@ -40,9 +50,8 @@ Other Natural Language Processing Tools
 | 1 | [TextBlob](https://textblob.readthedocs.io/en/dev/)| Built on top of NLTK, TextBlob is very easy to learn, but is also relatively slow. |
 | 2 | [CoreNLP](https://stanfordnlp.github.io/CoreNLP/)| Developed by Stanford in Java it can be integrated with NLTK and is much faster. |
 | 3 | [Gensim](https://github.com/RaRe-Technologies/gensim)| Very good memory usage optimization. |
-| 4 | [SpaCy](https://spacy.io/)| Written in Cython and very fast. |
-| 5 | [PolyGlot](https://polyglot.readthedocs.io/en/latest/index.html)| Also very fast. |
-| 6 | [Pattern](https://www.clips.uantwerpen.be/pages/pattern-en)| Most other NL tools use pattern for their part of speech tagging, but you can implement it directly. |
+| 4 | [PolyGlot](https://polyglot.readthedocs.io/en/latest/index.html)| Also very fast. |
+| 5 | [Pattern](https://www.clips.uantwerpen.be/pages/pattern-en)| Most other NL tools use pattern for their part of speech tagging, but you can implement it directly. |
 
 | # | Lexicon | Description |
 |---|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
