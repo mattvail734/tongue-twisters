@@ -38,5 +38,5 @@ This project:
 
 
 ## Sentiment Analysis
-
+[Afinn Paper](http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6006/pdf/imm6006.pdf)
 
