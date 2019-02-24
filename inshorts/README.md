@@ -17,9 +17,10 @@ This project:
 9. [Identifies named entities](https://en.wikipedia.org/wiki/Named-entity_recognition) using SpaCy
 10. [Analyzes the sentiment](https://en.wikipedia.org/wiki/Sentiment_analysis) using the [Afinn](https://github.com/fnielsen/afinn) lexicon
 
+inshorts.py is driver program for the application. 
+
 ## Data Retrieval and HTML Parsing
-
-
+get_news.py leverages requests to retrieve the news from inshorts. Retrieval is done by the build_dataset method. Given a set of urls, build_dataset downloads all html from those urls. After downloading the HTML, we create a BeautifulSoup object and use that to parse the html for news headlines, articles, and categories. Lastly, we store these three series in a Pandas dataframe.
 
 ## Normalizing
 
