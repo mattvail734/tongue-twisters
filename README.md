@@ -52,7 +52,7 @@ Other Natural Language Processing Tools
 | 4 | [PolyGlot](https://polyglot.readthedocs.io/en/latest/index.html)| Also very fast. |
 | 5 | [Pattern](https://www.clips.uantwerpen.be/pages/pattern-en)| Most other NL tools use pattern for their part of speech tagging, but you can implement it directly. |
 
-| # | Lexicon | Description |
+| # | Polarity Lexicon | Description |
 |---|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | [Bing Liu's Lexicon](https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html)| University of Illinois Chicago Lexicon |
 | 2 | [SentiWordNet](https://sentiwordnet.isti.cnr.it/)| University of Pisa Lexicon |
@@ -60,11 +60,14 @@ Other Natural Language Processing Tools
 | 4 | [Vader](https://github.com/cjhutto/vaderSentiment)| Open source Lexicon project |
 | 5 | [TextBlob](https://github.com/sloria/TextBlob/blob/eb08c120d364e908646731d60b4e4c6c1712ff63/textblob/en/en-sentiment.xml)| Open source Lexicon project |
 | 6 | [AFINN](https://github.com/fnielsen/afinn)| Open source Lexicon project |
+| 7 | [WordStat](https://provalisresearch.com/products/content-analysis-software/wordstat-dictionary/sentiment-dictionaries/)| Set of words labeled based on their proximity to negated words of the opposite type |
+| 8 | [Whissell Dictionary](https://www.god-helmet.com/wp/whissel-dictionary-of-affect/index.htm) | Windows application for sentiment analysis; no API available as far as I know |
+| 9 | [Sentiment 140](https://github.com/felipebravom/StaticTwitterSent/tree/master/extra/Sentiment140-Lexicon-v0.1) | Created from 160 million tweets |
 
 [Top](#tongue-twisters)
 
 ## References
-
+[Sentiment Analysis Tools](https://medium.com/@datamonsters/sentiment-analysis-tools-overview-part-1-positive-and-negative-words-databases-ae35431a470c)
 ### Books
 
 
