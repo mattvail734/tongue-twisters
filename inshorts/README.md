@@ -23,7 +23,7 @@ inshorts.py is driver program for the application.
 get_news.py leverages requests to retrieve the news from inshorts. Retrieval is done by the build_dataset method. Given a set of urls, build_dataset downloads all html from those urls. After downloading the HTML, we create a BeautifulSoup object and use that to parse the html for news headlines, articles, and categories. Lastly, we store these three series in a Pandas dataframe.
 
 <p align="left">
-  <img src="https://github.com/polymathnexus5/tongue-twisters/blob/master/inshorts/initial_dataframe.html" alt="initial dataframe" height="500" width="500" style="float:right">
+  <html src="https://github.com/polymathnexus5/tongue-twisters/blob/master/inshorts/initial_dataframe.html" alt="initial dataframe" height="500" width="500" style="float:right">
 </p>
 
 ## Normalizing
