@@ -22,6 +22,49 @@ inshorts.py is driver program for the application.
 ## Data Retrieval and HTML Parsing
 get_news.py leverages requests to retrieve the news from inshorts. Retrieval is done by the build_dataset method. Given a set of urls, build_dataset downloads all html from those urls. After downloading the HTML, we create a BeautifulSoup object and use that to parse the html for news headlines, articles, and categories. Lastly, we store these three series in a Pandas dataframe.
 
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>news_headline</th>
+      <th>news_article</th>
+      <th>news_category</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Miss him today, every day: Apple CEO on Steve ...</td>
+      <td>Remembering late Apple Co-founder Steve Jobs o...</td>
+      <td>technology</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>End $479 mn US Army contract: Microsoft employ...</td>
+      <td>Over 100 Microsoft workers have written to CEO...</td>
+      <td>technology</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>Year-long emergency declared in Sudan amid ant...</td>
+      <td>Sudan's President Omar al-Bashir has declared ...</td>
+      <td>world</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>Drug lord Pablo Escobar's former home demolish...</td>
+      <td>Colombian authorities on Friday demolished the...</td>
+      <td>world</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Normalizing
 
 
