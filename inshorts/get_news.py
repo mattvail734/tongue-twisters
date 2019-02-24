@@ -5,10 +5,6 @@ from bs4 import BeautifulSoup
 import normalize_text
 import tag_text
 
-seed_urls = ['https://inshorts.com/en/read/technology',
-             'https://inshorts.com/en/read/sports',
-             'https://inshorts.com/en/read/world']
-
 
 def build_dataset(seed_urls):
     news_data = []
@@ -34,7 +30,7 @@ def build_dataset(seed_urls):
     return df
 
 
-def build_dataframe():
+def build_dataframe(seed_urls):
     news_df = build_dataset(seed_urls)
     # combine headline and article text
     news_df['full_text'] = news_df['news_headline'].map(str) + '. ' + news_df['news_article']
