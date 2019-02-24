@@ -17,7 +17,7 @@ Retrieval, data preparation, and analysis of 60-word news articles from inshorts
 
 News sentiment by category:
 <p align="left">
-  <img src="https://github.com/polymathnexus5/tongue-twisters/blob/master/inshorts/Sentiment_Historgram.png" alt="Histogram" height="500" width="500" style="float:right">
+  <img src="https://github.com/polymathnexus5/tongue-twisters/blob/master/inshorts/Sentiment_Histogram.png" alt="Histogram" height="500" width="500" style="float:right">
 </p>
 
 ### [movie-reviews-micro-project](https://github.com/polymathnexus5/tongue-twisters/blob/master/movies/)
