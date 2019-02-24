@@ -16,3 +16,27 @@ This project:
 8. [Dependency parses](https://en.wikipedia.org/wiki/Parse_tree#Dependency-based_parse_trees) the text using the [Universal Dependencies Scheme](https://universaldependencies.org/u/dep/index.html) via SpaCy
 9. [Identifies named entities](https://en.wikipedia.org/wiki/Named-entity_recognition) using SpaCy
 10. [Analyzes the sentiment](https://en.wikipedia.org/wiki/Sentiment_analysis) using the [Afinn](https://github.com/fnielsen/afinn) lexicon
+
+## Data Retrieval and HTML Parsing
+
+
+
+## Normalizing
+
+
+
+## Tagging
+
+
+
+## Language Parsing
+
+
+
+## Named Entity Identification
+
+
+
+## Sentiment Analysis
+
+
