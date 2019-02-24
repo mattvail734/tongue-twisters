@@ -24,7 +24,7 @@ def main():
                  'https://inshorts.com/en/read/world']
 
     news_df = get_news.build_dataframe(seed_urls)
-    news_df.to_html('initial_dataframe.html', columns=['news_headline', 'news_article', 'news_category'])
+    news_df.to_html('initial_dataframe.html', columns=['news_headline', 'news_article', 'news_category'], max_rows=5)
 
 
     entity_df = entity_text.identify_named_entities(news_df['normalized_text'])
@@ -39,13 +39,9 @@ def main():
     sent_df = pd.DataFrame(data=sent_dict)
     print(sent_df.groupby(by=['news_category']).describe())
 
-    f, ax = plt.subplots(figsize=(7, 6))
-    f = sns.boxplot(x='news_category', y='sentiment_score', hue='news_category', data=sent_df, palette='Set2')
-    f = sns.swarmplot(x='news_category', y='sentiment_score', data=sent_df, size=2, color=".3", linewidth=0)
-    # f.title('Visualizing News Sentiment', fontsize=14)
-    ax.xaxis.grid(True)
+    sns.boxplot(x='news_category', y='sentiment_score', hue='news_category', data=sent_df, palette='Set2')
     sns.despine(trim=True, left=True)
-    plt.show()
+    plt.savefig('Sentiment_Histogram.png')
 
 
 if __name__ == "__main__":
