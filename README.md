@@ -14,7 +14,6 @@ repo for natural language processing tools, references, and microprojects
 
 ### [inshorts-news-analysis](https://github.com/polymathnexus5/tongue-twisters/tree/master/inshorts)
 Retrieval, data preparation, and analysis of 60-word news articles from inshorts.
-
 News sentiment by category:
 <p align="left">
   <img src="https://github.com/polymathnexus5/tongue-twisters/blob/master/inshorts/Sentiment_Historgram.png" alt="Histogram" height="500" width="500" style="float:right">
@@ -22,7 +21,6 @@ News sentiment by category:
 
 ### [movie-reviews-micro-project](https://github.com/polymathnexus5/tongue-twisters/blob/master/movies/)
 Analysis of MovieLens ratings and NLTK built in movie reviews.
-
 Example histogram from movie data:
 <p align="left">
   <img src="https://github.com/polymathnexus5/tongue-twisters/blob/master/movies/ratings_histogram.png" alt="Histogram" height="500" width="500" style="float:right">
