@@ -20,7 +20,7 @@ This project:
 inshorts.py is driver program for the application. 
 
 ## Data Retrieval and HTML Parsing
-get_news.py leverages requests to retrieve the news from inshorts. Retrieval is done by the build_dataset method. Given a set of urls, build_dataset downloads all html from those urls. After downloading the HTML, we create a BeautifulSoup object and use that to parse the html for news headlines, articles, and categories. Lastly, we store these three series in a Pandas dataframe.
+get_news.py leverages requests to retrieve the news from inshorts. Retrieval is done by the build_dataset method. Given a set of urls, build_dataset downloads all html from those urls. After downloading the HTML, we create a BeautifulSoup object and use that to parse the html for news headlines, articles, and categories. Then, we store these three series in a Pandas dataframe and again utilize BeautifulSoup to remove html tags.
 
 <table border="1" class="dataframe">
   <thead>
