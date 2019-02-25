@@ -135,12 +135,12 @@ Details on how SpaCy tags can be found [here](https://spacy.io/api/annotation#se
     <tr>
       <th>0</th>
       <td>adobe fix bug damage macbook pro speaker adobe...</td>
-      <td>[(adobe, NN), (fix, NN), (bug, NN), (damage, N...</td>
+      <td>[(adobe, NNP, PROPN), (fix, VB, VERB), (bug, N...</td>
     </tr>
     <tr>
       <th>1</th>
       <td>end mn us army contract microsoft employee ceo...</td>
-      <td>[(end, NN), (mn, VBZ), (us, PRP), (army, RP), ...</td>
+      <td>[(end, VB, VERB), (mn, IN, ADP), (us, PRP, PRO...</td>
     </tr>
     <tr>
       <th>...</th>
@@ -150,15 +150,17 @@ Details on how SpaCy tags can be found [here](https://spacy.io/api/annotation#se
     <tr>
       <th>73</th>
       <td>kill injure china mine accident least people k...</td>
-      <td>[(kill, JJ), (injure, NN), (china, NN), (mine,...</td>
+      <td>[(kill, VB, VERB), (injure, NN, NOUN), (china,...</td>
     </tr>
     <tr>
       <th>74</th>
       <td>saudi arabia look make india regional hub oil ...</td>
-      <td>[(saudi, NN), (arabia, NN), (look, VBP), (make...</td>
+      <td>[(saudi, JJ, ADJ), (arabia, NNS, NOUN), (look,...</td>
     </tr>
   </tbody>
 </table>
+
+tag_text.py also provides the option to use NLTK for POS tagging. This is a little more convenient as there is no additional language model to load, but the SpaCy taggers performs slightly better on most test text and is faster at runtime.
 
 ## Language Parsing
 
