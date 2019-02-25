@@ -172,7 +172,74 @@ chunk_text.py takes each word and "chunks" or groups them into phrases. There ar
 
 
 ## Named Entity Identification
+entity_recognition.py uses the built in SpaCy named entity recognition to identify named entities throughout the news articles. It then groups then, counts occurrences, and sorts them by most frequent.
 
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>india</td>
+      <td>GPE</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>pakistan</td>
+      <td>GPE</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>first</td>
+      <td>ORDINAL</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>year</td>
+      <td>DATE</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>korea</td>
+      <td>GPE</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>kim</td>
+      <td>PERSON</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>july</td>
+      <td>DATE</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>afghanistan</td>
+      <td>GPE</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ## Sentiment Analysis
