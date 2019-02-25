@@ -117,10 +117,12 @@ You should either stem or lemmatize but not both.
   </tbody>
 </table>
 
-## Tagging
-tag_text.py uses SpaCy to tag each word with its corresponding part of speech (POS). SpaCy has several models covering many languages; here we use the standard English 'en_core_web_md' 2.0.0 language model (found [here](https://github.com/explosion/spacy-models/releases/tag/en_core_web_md-2.0.0) with info [here](https://spacy.io/models/).
+## Tokenizing, Tagging, and Language Parsing
+SpaCy has several models covering many languages; here we use the standard English 'en_core_web_md' 2.0.0 language model (found [here](https://github.com/explosion/spacy-models/releases/tag/en_core_web_md-2.0.0) with info [here](https://spacy.io/models/).
 
-Details on how SpaCy tags can be found [here](https://spacy.io/api/annotation#section-pos-tagging).
+tokenize_text.py uses SpaCy to tokenize each word. This converts each word in the corpus into a SpaCy token, which includes roughly 64 individual [attributes](https://spacy.io/api/token#attributes) including the word's lemma, its corresponding part of speech (POS), its dependency tag, its entity type, and more. 
+
+Details on how SpaCy tags POS can be found [here](https://spacy.io/api/annotation#section-pos-tagging).
 "The English part-of-speech tagger uses the [OntoNotes 5](https://catalog.ldc.upenn.edu/LDC2013T19) version of the Penn Treebank tag set. We also map the tags to the simpler Google Universal POS tag set."
 
 <table border="1" class="dataframe">
@@ -160,14 +162,7 @@ Details on how SpaCy tags can be found [here](https://spacy.io/api/annotation#se
   </tbody>
 </table>
 
-## Language Parsing
-chunk_text.py takes each word and "chunks" or groups them into phrases. There are five major categories of phrases:
-1. Noun phrase
-2. Verb phrase
-3. Adjective phrase
-4. Adverb phrase
-5. Prepositional phrase
-
+In the tokenization process, SpaCy automatically dependency parses the corpus for us.
 
 <p align="left">
   <img src="https://github.com/polymathnexus5/tongue-twisters/blob/master/inshorts/dep_tagged.png" alt="Dependency Tagged" height="500" width="1500" style="float:right">
