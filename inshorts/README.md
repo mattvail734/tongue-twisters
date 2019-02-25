@@ -174,7 +174,7 @@ chunk_text.py takes each word and "chunks" or groups them into phrases. There ar
 ## Named Entity Identification
 entity_recognition.py uses the built in SpaCy named entity recognition to identify named entities throughout the news articles. It then groups then, counts occurrences, and sorts them by most frequent.
 
-<table border="1" class="dataframe">
+<table border="1" table width="400" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
