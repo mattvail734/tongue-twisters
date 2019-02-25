@@ -128,7 +128,7 @@ Details on how SpaCy tags can be found [here](https://spacy.io/api/annotation#se
     <tr style="text-align: right;">
       <th></th>
       <th>normalized_text</th>
-      <th>tagged_text</th>
+      <th>pos_tagged_text</th>
     </tr>
   </thead>
   <tbody>
