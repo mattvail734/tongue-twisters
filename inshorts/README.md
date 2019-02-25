@@ -118,7 +118,10 @@ You should either stem or lemmatize but not both.
 </table>
 
 ## Tagging
+tag_text.py uses SpaCy to tag each word with its corresponding part of speech (POS). SpaCy has several models covering many languages; here we use the standard English 'en_core_web_md' 2.0.0 language model (found [here](https://github.com/explosion/spacy-models/releases/tag/en_core_web_md-2.0.0) with info [here[(https://spacy.io/models/).
 
+Details on how SpaCy tags can be found [here](https://spacy.io/api/annotation#section-pos-tagging).
+"The English part-of-speech tagger uses the [OntoNotes 5](https://catalog.ldc.upenn.edu/LDC2013T19) version of the Penn Treebank tag set. We also map the tags to the simpler Google Universal POS tag set."
 
 
 ## Language Parsing
