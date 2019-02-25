@@ -123,6 +123,42 @@ tag_text.py uses SpaCy to tag each word with its corresponding part of speech (P
 Details on how SpaCy tags can be found [here](https://spacy.io/api/annotation#section-pos-tagging).
 "The English part-of-speech tagger uses the [OntoNotes 5](https://catalog.ldc.upenn.edu/LDC2013T19) version of the Penn Treebank tag set. We also map the tags to the simpler Google Universal POS tag set."
 
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>normalized_text</th>
+      <th>tagged_text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>adobe fix bug damage macbook pro speaker adobe...</td>
+      <td>[(adobe, NN), (fix, NN), (bug, NN), (damage, N...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>end mn us army contract microsoft employee ceo...</td>
+      <td>[(end, NN), (mn, VBZ), (us, PRP), (army, RP), ...</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>kill injure china mine accident least people k...</td>
+      <td>[(kill, JJ), (injure, NN), (china, NN), (mine,...</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>saudi arabia look make india regional hub oil ...</td>
+      <td>[(saudi, NN), (arabia, NN), (look, VBP), (make...</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Language Parsing
 
