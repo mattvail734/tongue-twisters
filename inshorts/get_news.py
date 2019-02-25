@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 import normalize_text
-import tag_text
+import tokenize_text
 import sentiment
 
 
@@ -37,14 +37,8 @@ def build_dataframe(seed_urls):
     news_df['full_text'] = news_df['news_headline'].map(str) + '. ' + news_df['news_article']
     # preprocess text
     news_df['normalized_text'] = normalize_text.normalize(news_df['full_text'])
-    # POS tag text
-    news_df['POS_tagged_text'] = tag_text.POS_tag_text(news_df['normalized_text'])
-    # chunk (shallow parse) text
-    news_df['chunked_text'] = tag_text.chunk_text(news_df['normalized_text'])
-    # constituency parse text
-    news_df['con_tagged_text'] = tag_text.con_tag_text(news_df['normalized_text'])
-    # dependency parse text
-    news_df['dep_tagged_text'] = tag_text.dep_tag_text(news_df['normalized_text'])
+    # tokenize text
+    news_df['tokenized_text'] = tokenize_text.tokenize(news_df['full_text'])
     # calculate sentiment
     news_df['sentiment_score'] = sentiment.sent_score(news_df['normalized_text'])
     news_df['sentiment_score'] = news_df.sentiment_score.astype('float')

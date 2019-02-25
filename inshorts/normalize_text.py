@@ -85,7 +85,7 @@ def remove_stopwords(text, is_lower_case=False):
 # corpus is a Panda series; each element is a single set of words
 def normalize(
         corpus, html_stripping=True, contraction_expansion=True,
-        accented_char_removal=True, text_lower_case=True, text_lemmatization=True,
+        accented_char_removal=True, text_lower_case=True, simple_stemmer=False, text_lemmatization=True,
         special_char_removal=True, stopword_removal=True, remove_digits=True):
 
         normalized_text = []
@@ -105,6 +105,8 @@ def normalize(
                 doc = doc.lower()
             # remove extra newlines
             doc = re.sub(r'[\r|\n|\r\n]+', ' ', doc)
+            if simple_stemmer:
+                doc = simple_stemmer(doc)
             # lemmatize the text
             if text_lemmatization:
                 doc = lemmatize_text(doc)
