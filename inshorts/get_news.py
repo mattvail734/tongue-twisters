@@ -4,9 +4,10 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import normalize_text
 import tag_text
+import sentiment
 
 
-def build_dataset(seed_urls):
+def fetch_data(seed_urls):
     news_data = []
     for url in seed_urls:
         news_category = url.split('/')[-1]
@@ -31,13 +32,23 @@ def build_dataset(seed_urls):
 
 
 def build_dataframe(seed_urls):
-    news_df = build_dataset(seed_urls)
+    news_df = fetch_data(seed_urls)
     # combine headline and article text
     news_df['full_text'] = news_df['news_headline'].map(str) + '. ' + news_df['news_article']
     # preprocess text
     news_df['normalized_text'] = normalize_text.normalize(news_df['full_text'])
-    # tag text
-    news_df['tagged_text'] = tag_text.tag_text(news_df['normalized_text'], model='nltk')
+    # POS tag text
+    news_df['POS_tagged_text'] = tag_text.POS_tag_text(news_df['normalized_text'])
+    # chunk (shallow parse) text
+    news_df['chunked_text'] = tag_text.chunk_text(news_df['normalized_text'])
+    # constituency parse text
+    news_df['con_tagged_text'] = tag_text.con_tag_text(news_df['normalized_text'])
+    # dependency parse text
+    news_df['dep_tagged_text'] = tag_text.dep_tag_text(news_df['normalized_text'])
+    # calculate sentiment
+    news_df['sentiment_score'] = sentiment.sent_score(news_df['normalized_text'])
+    # assign sentiment category
+    news_df['sentiment_category'] = sentiment.sent_category(news_df['sentiment_score'])
     return news_df
 
 

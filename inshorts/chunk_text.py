@@ -1,6 +1,7 @@
 from nltk.chunk.util import tree2conlltags, conlltags2tree
 from nltk.tag import UnigramTagger, BigramTagger
 from nltk.chunk import ChunkParserI
+from nltk.corpus import conll2000
 
 # first download the nltk conll2000 corpora
 # nltk.download('conll2000')
@@ -35,3 +36,8 @@ class NGramTagChunker(ChunkParserI):
             for ((word, pos_tag), chunk_tag)
             in zip(tagged_sentence, chunk_tags)]
         return conlltags2tree(wpc_tags)
+
+
+# train chunker model
+training_data = conll2000.chunked_sents()
+ntc = NGramTagChunker(training_data)
