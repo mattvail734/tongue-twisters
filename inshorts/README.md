@@ -249,4 +249,53 @@ details on the Afinn model and results are [here](http://www2.imm.dtu.dk/pubdb/v
   <img src="https://github.com/polymathnexus5/tongue-twisters/blob/master/inshorts/Sentiment_Histogram.png" alt="Histogram" height="500" width="500" style="float:right">
 </p>
 
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>news_headline</th>
+      <th>news_category</th>
+      <th>sentiment_score</th>
+      <th>sentiment_category</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>BJP MP-led panel summons officials of Facebook...</td>
+      <td>technology</td>
+      <td>0.0</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>We are very aware of iPhone pricing concerns: ...</td>
+      <td>technology</td>
+      <td>0.0</td>
+      <td>neutral</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>Saudi Arabia looking to make India regional hu...</td>
+      <td>world</td>
+      <td>5.0</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>Trump calls on OPEC to 'relax,' says oil price...</td>
+      <td>world</td>
+      <td>2.0</td>
+      <td>positive</td>
+    </tr>
+  </tbody>
+</table>
+
 [top](#inshorts-analysis)
