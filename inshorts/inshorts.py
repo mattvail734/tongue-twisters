@@ -30,9 +30,7 @@ def main():
     news_df.to_html('tokenized_text.html', columns=['normalized_text', 'tokenized_text'], max_rows=5)
     tokenized_text = news_df['tokenized_text']
     tokenize_text.dep_tagged_to_html(tokenized_text[0], 'dep_tagged.html')
-    tokenize_text.dep_tagged_to_svg(tokenized_text[0], 'dep_tagged.svg')
     tokenize_text.entities_to_html(tokenized_text[0], 'entity_visualization.html')
-    tokenize_text.entities_to_svg(tokenized_text[0], 'entity_visualization.svg')
 
     ordered_entity_df = entity_recognition.identify_named_entities(news_df['normalized_text'])
     ordered_entity_df.to_html('entities.html', columns=['Name', 'Type', 'Count'], max_rows=8)
