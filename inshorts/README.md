@@ -170,7 +170,7 @@ chunk_text.py takes each word and "chunks" or groups them into phrases. There ar
 
 
 <p align="left">
-  <img src="https://github.com/polymathnexus5/tongue-twisters/blob/master/inshorts/dep_tagged.png" alt="Dependency Tagged" height="500" width="500" style="float:right">
+  <img src="https://github.com/polymathnexus5/tongue-twisters/blob/master/inshorts/dep_tagged.png" alt="Dependency Tagged" height="500" width="1500" style="float:right">
 </p>
 
 SpaCy 2.0.0 comes with built in [visualizers](https://spacy.io/usage/visualizers#section-html) and methods to traverse a document via its parsed entities. It also allows you to [export](https://spacy.io/usage/visualizers#section-html) to html using 'displacy' and then you can use [CodePen](https://codepen.io/) to create nice images.
@@ -179,7 +179,7 @@ SpaCy 2.0.0 comes with built in [visualizers](https://spacy.io/usage/visualizers
 entity_recognition.py uses the built in SpaCy named entity recognition to identify named entities throughout the news articles. It then groups entities, counts occurrences, and sorts them by most frequent.
 
 <p align="left">
-  <img src="https://github.com/polymathnexus5/tongue-twisters/blob/master/inshorts/entity_visualization.png" alt="Named Entities" height="500" width="500" style="float:right">
+  <img src="https://github.com/polymathnexus5/tongue-twisters/blob/master/inshorts/entity_visualization.png" alt="Named Entities" height="500" width="1500" style="float:right">
 </p>
 
 <table border="1" class="dataframe">
