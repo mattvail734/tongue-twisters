@@ -170,7 +170,7 @@ chunk_text.py takes each word and "chunks" or groups them into phrases. There ar
 
 
 ## Named Entity Identification
-entity_recognition.py uses the built in SpaCy named entity recognition to identify named entities throughout the news articles. It then groups then, counts occurrences, and sorts them by most frequent.
+entity_recognition.py uses the built in SpaCy named entity recognition to identify named entities throughout the news articles. It then groups entities, counts occurrences, and sorts them by most frequent.
 
 <table border="1" class="dataframe">
   <thead>
@@ -241,5 +241,11 @@ entity_recognition.py uses the built in SpaCy named entity recognition to identi
 
 
 ## Sentiment Analysis
+sentiment.py uses the Afinn Lexicon to assign a sentiment score to each article. Afinn works with a corpus of 
+
 [Afinn Paper](http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6006/pdf/imm6006.pdf)
 
+
+<p align="left">
+  <img src="https://github.com/polymathnexus5/tongue-twisters/blob/master/inshorts/Sentiment_Histogram.png" alt="Histogram" height="500" width="500" style="float:right">
+</p>
