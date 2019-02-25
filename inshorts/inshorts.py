@@ -1,6 +1,7 @@
 import os
 import matplotlib.pyplot as plt
 import seaborn as sns
+import pandas as pd
 import get_news
 import entity_recognition
 
@@ -29,11 +30,11 @@ def main():
     ordered_entity_df = entity_recognition.identify_named_entities(news_df['normalized_text'])
     ordered_entity_df.to_html('entities.html', columns=['Name', 'Type', 'Count'], max_rows=8)
 
-    # NEED TO FIX BOXPLOT
+    sent_df = news_df[['news_category', 'sentiment_score', 'sentiment_category']]
+    sent_df.groupby(by=['news_category'])
     sns.boxplot(
         x='news_category', y='sentiment_score', hue='news_category',
-        data=news_df['news_headline', 'news_article', 'news_category', 'sent_scores'],
-        palette='Set2')
+        data=sent_df, palette='Set2')
     sns.despine(trim=True, left=True)
     plt.savefig('Sentiment_Histogram.png')
 

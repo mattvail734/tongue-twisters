@@ -39,5 +39,7 @@ class NGramTagChunker(ChunkParserI):
 
 
 # train chunker model
-training_data = conll2000.chunked_sents()
-ntc = NGramTagChunker(training_data)
+def train_chunker():
+    training_data = conll2000.chunked_sents()
+    ntc = NGramTagChunker(training_data)
+    return ntc

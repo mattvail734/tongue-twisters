@@ -47,6 +47,7 @@ def build_dataframe(seed_urls):
     news_df['dep_tagged_text'] = tag_text.dep_tag_text(news_df['normalized_text'])
     # calculate sentiment
     news_df['sentiment_score'] = sentiment.sent_score(news_df['normalized_text'])
+    news_df['sentiment_score'] = news_df.sentiment_score.astype('float')
     # assign sentiment category
     news_df['sentiment_category'] = sentiment.sent_category(news_df['sentiment_score'])
     return news_df
