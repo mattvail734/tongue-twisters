@@ -241,11 +241,12 @@ entity_recognition.py uses the built in SpaCy named entity recognition to identi
 
 
 ## Sentiment Analysis
-sentiment.py uses the Afinn Lexicon to assign a sentiment score to each article. Afinn works with a corpus of 
+sentiment.py uses the Afinn Lexicon to assign a sentiment score to each article. Afinn works with a corpus of roughly 2,477 unique words built from Twitter posts and manually labeled on a scale from -5 (most negative) to +5 (most positive) with 0 being a neutral word. The sentiment score of an article is then computed using the average polarity of the words (sum of all polarity scores in the article divided by the total number of words).
 
-[Afinn Paper](http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6006/pdf/imm6006.pdf)
-
+details on the Afinn model and results are [here](http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6006/pdf/imm6006.pdf)
 
 <p align="left">
   <img src="https://github.com/polymathnexus5/tongue-twisters/blob/master/inshorts/Sentiment_Histogram.png" alt="Histogram" height="500" width="500" style="float:right">
 </p>
+
+[top](#inshorts-analysis)
