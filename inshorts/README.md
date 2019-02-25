@@ -71,12 +71,51 @@ normalize_text.py takes the news dataframe and does the following pre-processing
 1. removes all accented characters (aprés-ski => apres-ski) using the standard Python unicodedata library
 2. expands contractions (can't => cannot) using a standard set of contractions available [here](https://github.com/polymathnexus5/tongue-twisters/blob/master/inshorts/contractions.py)
 3. removes all special characters (Wow! so crazy 13?%$!! => Wow so crazy) using the nltk.porter.PorterStemmer() class
+4. removes all stopwords using a NLTK tokenizer and the built in NLTK stopwords corpus
+5. converts the text to lowercase
 
 normalize_text.py also provides methods to:
-4. stems the text (run, ran, running, runs, runner => run "the root stem"); stemming is done according to an algorithm that does NOT guarantee that the resulting root will be semantically correct or even in the dictionary (i.e. daily stems to daili using the NLTK Porter stemmer)
-5. lemmatize the text; lemmatization is very similar to stemming except that in lemmatization the resulting word is always in the dictionary. The resulting word is called the "lemma"
+6. stems the text (run, ran, running, runs, runner => run "the root stem"); stemming is done according to an algorithm that does NOT guarantee that the resulting root will be semantically correct or even in the dictionary (i.e. daily stems to daili using the NLTK Porter stemmer)
+7. lemmatize the text; lemmatization is very similar to stemming except that in lemmatization the resulting word is always in the dictionary. The resulting word is called the "lemma"
 
 You should either stem or lemmatize but not both.
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>full_text</th>
+      <th>normalized_text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Twitter CEO to not attend parliament panel mee...</td>
+      <td>twitter ceo not attend parliament panel meet m...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>PETA criticises Google Doodle on Steve Irwin, ...</td>
+      <td>peta criticise google doodle steve irwin face ...</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>Vietnam threatens to deport Trump, Kim Jong-un...</td>
+      <td>vietnam threaten deport trump kim jong un impe...</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>Drug lord Pablo Escobar's former home demolish...</td>
+      <td>drug lord pablo escobar former home demolish c...</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Tagging
 
