@@ -160,8 +160,6 @@ Details on how SpaCy tags can be found [here](https://spacy.io/api/annotation#se
   </tbody>
 </table>
 
-tag_text.py also provides the option to use NLTK for POS tagging. This is a little more convenient as there is no additional language model to load, but the SpaCy taggers performs slightly better on most test text and is faster at runtime.
-
 ## Language Parsing
 chunk_text.py takes each word and "chunks" or groups them into phrases. There are five major categories of phrases:
 1. Noun phrase
